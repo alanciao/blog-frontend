@@ -18,7 +18,7 @@
 						  class="thumbnail g-image g-image--lazy g-image--loaded"
 							width="2560"
 							data-sizes="(max-width: 2560px) 100vw, 2560px"
-							:src="'http://106.75.141.156:1337' + project.image.url"
+							:src="project.image.url"
 							:alt="project.name">
 						<h3 class="project-title">{{ project.name }}</h3>
 						<div class="categories">

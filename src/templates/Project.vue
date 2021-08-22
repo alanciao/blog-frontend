@@ -26,7 +26,7 @@
 						  class="g-image g-image--lazy g-image--loading"
 							width="2560"
 							data-sizes="(max-width: 2560px) 100vw, 2560px"
-							:src="`http://106.75.141.156:1337${project.image.url}`">
+							:src="project.image.url">
 					</p>
 				</div>
     	</div>
